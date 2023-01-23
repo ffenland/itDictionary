@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+}
+.card {
+  flex: 1;
+  overflow: hidden;
+  height: 300px;
+  border-radius: 5%;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.card:hover {
+  flex: 3;
+  filter: brightness(2) contrast(1);
+}
+
+.red {
+  background-color: red;
+}
+.orange {
+  background-color: orange;
+}
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
